@@ -37,13 +37,13 @@ body {
     position: relative;
 }
 
-.heading__logo-box {
+.header__logo-box {
   position: absolute;
   top: 40px;
   left: 40px;
 }
 
-.heading__logo {
+.header__logo {
   height: 35px;
 }
 
@@ -135,7 +135,7 @@ body {
     position: relative;
 }
 
-.btn-animated {
+.btn--animated {
     animation: moveInUp ease-out 1s .75s;
     animation-fill-mode: backwards;
 }
@@ -150,7 +150,7 @@ body {
     box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
-.btn-white {
+.btn--white {
     background-color: white;
     color: #777;
     padding: 15px 40px;
@@ -169,7 +169,7 @@ body {
     transition: all .4s;
 }
 
-.btn-white::after {
+.btn--white::after {
     background-color: white;
 }
 
